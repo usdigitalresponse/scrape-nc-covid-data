@@ -8,8 +8,8 @@ This script:
 - appends the results to a Google Sheet
 
 Create the cron job to run this script every four hours:
-	0 */4 * * * /path/to/python3 scrapeWakeCovidData.py infections
-	0 1/4 * * * /path/to/python3 scrapeWakeCovidData.py deaths 
+	0 * * * * /path/to/python3 scrapeWakeCovidData.py infections
+	30 * * * * /path/to/python3 scrapeWakeCovidData.py deaths 
 """
 
 import sys
