@@ -1,4 +1,7 @@
-# Scape NC COVID-19 Data
+⚠️ **This project is no longer actively maintained!** ⚠️ USDR is no longer providing fixes or keeping the code here up-to-date with changes to the dashboard it scrapes, but this project might be a good example to start from if you need to extract data from PowerBI dashboards.
+
+
+# Scrape NC COVID-19 Data
 
 ## Overview
 
@@ -67,3 +70,12 @@ All automation is handled by the `cron` utility. Two requests are made each hour
 30 * * * * /opt/nc-covid-scrape/ve/nc-covid-scrape/bin/python3 /opt/nc-covid-scrape/scrapeWakeCovidData.py deaths
 ```
 
+## License & Copyright
+
+Copyright (C) 2021 U.S. Digital Response (USDR)
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at:
+
+[`LICENSE`](./LICENSE) in this repository or http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
